@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="bottom"
+              android:orientation="vertical"
+              tools:background="@color/color_black">
+
+    <TextView
+        android:id="@+id/tvTitle_TI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        fontPath="fonts/Demi.otf"
+        android:textColor="@color/color_white"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        tools:text="SHOE REPAIR"
+        tools:ignore="MissingPrefix"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tvItemText_TI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Need to bring your favorite shoes back to life ?
+        Drop them off at the locker and they will
+        come back looking brand new after Ndust
+        does their magic, a leading cobbler in Dubai."
+        android:textColor="@color/color_white"
+        android:textSize="14sp"/>
+
+</LinearLayout>

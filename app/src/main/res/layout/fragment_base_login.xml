@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/img_home_bg"
+                tools:ignore="MissingPrefix">
+
+
+    <ImageView
+        android:id="@+id/ivMyBoxLogo_FBL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/img_logo_firstlog"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnLogin_FBS"
+            fontPath="Medium.otf"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/bg_login_button"
+            android:text="@string/base.login.button.login"/>
+
+        <Button
+            android:id="@+id/btnRegister_FBS"
+            fontPath="Medium.otf"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/bg_login_button"
+            android:text="@string/base.login.button.register"/>
+    </LinearLayout>
+
+</RelativeLayout>

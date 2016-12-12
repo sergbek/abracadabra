@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //two element MainMenu
+    <dimen name="withHoneyComb">230dp</dimen>
+    <dimen name="marginRight">55dp</dimen>
+    <dimen name="marginLeft">50dp</dimen>
+    <dimen name="marginTop">-55dp</dimen>
+
+
+    //fifth element MainMenu
+    <dimen name="homey_comb_with">160dp</dimen>
+
+    //six and seven element MainMenu
+    <dimen name="homey_comb_with_six_element">130dp</dimen>
+    <dimen name="middle_space">130dp</dimen>
+
+</resources>

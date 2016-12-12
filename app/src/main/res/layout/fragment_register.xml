@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text="@string/register.text.personal_info" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/etFullName_FR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/register.hint.name"
+            android:inputType="textPersonName" />
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/mspSex_FR"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/etPhone_FR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/register.hint.phone"
+            android:inputType="phone" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/etEmail_FR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/register.hint.email"
+            android:inputType="textEmailAddress" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text="@string/register.text.account_credentials" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/register.text.select_username" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/btnEmailUsername_FR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@color/color_grey_500"
+                    android:padding="8dp"
+                    android:text="@string/register.button.text.email_address" />
+
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/btnPhoneUsername_FR"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@color/color_grey_300"
+                    android:padding="8dp"
+                    android:text="@string/register.button.text.phone_number" />
+
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/btnCustomUserName_FR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@color/color_grey_500"
+                    android:padding="8dp"
+                    android:text="@string/register.button.text.custom" />
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/etUserName_FR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/register.hint.username"
+            android:inputType="text"
+            android:visibility="gone" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/etPassword_FR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/register.hint.password"
+            android:inputType="textPassword" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/cbTerms_FR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_vertical|center"
+            android:hint="@string/register.text.term_and_conditions" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tvAlreadyHaveAccount_FR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_gravity="center"
+            android:text="@string/register.text.already_have_account" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btnRegister_FR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/register.button.text.register" />
+
+    </LinearLayout>
+</ScrollView>

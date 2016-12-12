@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ErrorViewStyle">
+        <attr name="ev_style" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="BottomBar">
+        <attr name="bb_tabXmlResource" format="reference" />
+        <attr name="bb_tabletMode" format="boolean" />
+        <attr name="bb_behavior">
+            <flag name="shifting" value="1" />
+            <flag name="shy" value="2" />
+            <flag name="underNavbar" value="4" />
+        </attr>
+        <attr name="bb_inActiveTabAlpha" format="float" />
+        <attr name="bb_activeTabAlpha" format="float" />
+        <attr name="bb_inActiveTabColor" format="color" />
+        <attr name="bb_activeTabColor" format="color" />
+        <attr name="bb_badgeBackgroundColor" format="color" />
+        <attr name="bb_titleTextAppearance" format="reference" />
+        <attr name="bb_titleTypeFace" format="string" />
+        <attr name="bb_showShadow" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="HoneyCombView">
+        <attr name="color" format="color"/>
+        <attr name="percentPhoto" format="integer"/>
+        <attr name="image" format="reference"/>
+        <attr name="text" format="string"/>
+        <attr name="textColor" format="color"/>
+        <attr name="textAllCapsl" format="boolean"/>
+        <attr name="strokeWidth" format="integer"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="titleTypeFace" format="string" />
+        <attr name="revert" format="boolean" />
+        <attr name="state" format="enum">
+            <enum name="stroke" value="0"/>
+            <enum name="fill" value="1"/>
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="HoneyCombContainer">
+        <attr name="isLockerMode" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="ErrorView">
+        <attr name="ev_title" format="string"/>
+        <attr name="ev_titleColor" format="color"/>
+        <attr name="ev_subtitle" format="string"/>
+        <attr name="ev_subtitleColor" format="color"/>
+        <attr name="ev_errorImage" format="reference"/>
+        <attr name="ev_showTitle" format="boolean"/>
+        <attr name="ev_showSubtitle" format="boolean"/>
+        <attr name="ev_showRetryButton" format="boolean"/>
+        <attr name="ev_retryButtonText" format="string"/>
+        <attr name="ev_retryButtonBackground" format="reference"/>
+        <attr name="ev_retryButtonTextColor" format="color"/>
+        <attr name="ev_subtitleAlignment" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+    </declare-styleable>
+
+</resources>

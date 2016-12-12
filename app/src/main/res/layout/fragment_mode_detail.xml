@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              tools:background="@color/color_black"
+              tools:ignore="MissingPrefix">
+
+    <TextView
+        android:id="@+id/tvDescription_FMD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/testString"
+        android:textColor="@color/color_white"
+        android:textSize="16sp"/>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="10dp"/>
+
+    <TextView
+        android:id="@+id/tvAvaliableText_FMD"
+        fontPath="fonts/Medium.otf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#83848b"
+        tools:text="test"/>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="10dp"/>
+
+    <TextView
+        android:id="@+id/tvCurrentPlace_FMD"
+        fontPath="fonts/Medium.otf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:textColor="#83848b"
+        android:textSize="14sp"/>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="40dp"/>
+
+    <TextView
+        android:id="@+id/tvSearch_FMD"
+        fontPath="fonts/Medium.otf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:autoLink="all"
+        android:drawablePadding="18dp"
+        android:drawableStart="@drawable/ic_mode_search"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:linksClickable="false"
+        android:selectAllOnFocus="false"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/text_small"
+        tools:text="@string/search_for_different_building"/>
+
+    <Space
+        android:layout_width="30dp"
+        android:layout_height="20dp"/>
+
+    <Button
+        android:id="@+id/btnConfirm_FMD"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:text="@string/confirm"/>
+</LinearLayout>

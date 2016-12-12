@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+
+    <tab
+        icon="@drawable/ic_tab_pay"
+        id="@+id/tab_pay"
+        badgeBackgroundColor="#db5252"
+        title="Pay"/>
+    <tab
+        icon="@drawable/ic_tab_orders"
+        id="@+id/tab_orders"
+        badgeBackgroundColor="#db5252"
+        title="My Orders"/>
+    <tab
+        icon="@drawable/ic_bot_phone"
+        id="@+id/tab_phone"
+        badgeBackgroundColor="#db5252"
+        title="Call Us"/>
+    <tab
+        icon="@drawable/ic_tab_chat"
+        id="@+id/tab_chat"
+        badgeBackgroundColor="#db5252"
+        title="Chat"/>
+
+</tabs>

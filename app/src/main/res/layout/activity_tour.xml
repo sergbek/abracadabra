@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/activity_tour"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/img_bg_shoe">
+
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/ivMyBoxLogo_AT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/img_logo_start"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vpTourScreens_AT"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btnConfirm_AT"
+        android:overScrollMode="never"/>
+
+    <Button
+        android:id="@+id/btnConfirm_AT"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_alignParentBottom="true"
+        android:textAllCaps="true"
+        android:text="@string/tour.button.text"
+        android:textColor="@color/color_white"
+        android:textSize="18sp"/>
+
+    <me.relex.circleindicator.CircleIndicator
+        android:id="@+id/indicatorViewPager_AT"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_above="@id/btnConfirm_AT"/>
+
+</RelativeLayout>

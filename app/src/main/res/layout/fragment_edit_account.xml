@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.myboxandroid.ui.custom.NetworkContainer xmlns:android="http://schemas.android.com/apk/res/android"
+                                             android:id="@+id/networkContainer_FEA"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/edit.account.text.personal_information"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/edit_account_et_border"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="start"
+                    android:gravity="center"
+                    android:text="@string/edit.account.text.full_name"/>
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/etFullName_FEA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/md_transparent"
+                    android:gravity="end"
+                    android:inputType="textPersonName"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/edit_account_et_border"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="end"
+                    android:gravity="center"
+                    android:text="@string/edit.account.text.gender"/>
+
+                <android.support.v7.widget.AppCompatSpinner
+                    android:id="@+id/spGender_FEA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:gravity="end"
+
+                    android:inputType="textPersonName"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/edit_account_et_border"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="start"
+                    android:gravity="center"
+                    android:text="@string/edit.account.text.date_of_birth"/>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/tvDateOfBirth_FEA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:text="@string/edit.account.text.select_date"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/edit_account_et_border"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="start"
+                    android:gravity="center"
+                    android:text="@string/edit.account.text.address"/>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/tvAddress_FEA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/md_transparent"
+                    android:gravity="end"
+                    android:text="@string/edit.account.text.select_address"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/edit_account_et_border"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="start"
+                    android:gravity="center"
+                    android:text="@string/edit.account.text.mobile_number"/>
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/etMobileNumber_FEA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/md_transparent"
+                    android:gravity="end"
+                    android:inputType="phone"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/edit_account_et_border"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="start"
+                    android:gravity="center"
+                    android:text="@string/edit.account.text.email_address"/>
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/etEmailAddress_FEA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/md_transparent"
+                    android:gravity="end"
+                    android:inputType="textEmailAddress"/>
+            </LinearLayout>
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="32dp"/>
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/edit.account.text.account_credentials"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/edit_account_et_border"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="start"
+                    android:gravity="center"
+                    android:text="@string/edit.account.text.username"/>
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/etUsername_FEA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/md_transparent"
+                    android:gravity="end"
+                    android:inputType="textPersonName"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/edit_account_et_border"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="start"
+                    android:gravity="center"
+                    android:text="@string/edit.account.text.password"/>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/tvPassword_FEA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:gravity="end"
+                    android:text="@string/edit.account.text.change_my_password"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btnSave_FEA"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="@string/edit.account.button.text.save"/>
+        </LinearLayout>
+    </ScrollView>
+</com.myboxandroid.ui.custom.NetworkContainer>

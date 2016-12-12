@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/res_img_bgapp">
+
+    <FrameLayout
+        android:id="@+id/flPhoto_FTO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/ivPhoto_FTO"
+            android:layout_width="match_parent"
+            android:layout_height="224dp"
+            android:src="@drawable/img_bg_shoe" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tvTitle_FTO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:alpha="0.5"
+            android:background="#1c1d20"
+            android:paddingBottom="14dp"
+            android:paddingLeft="24dp"
+            android:paddingTop="18dp"
+            android:text="@string/tailor.order.text.title"
+            android:textColor="@color/color_white"
+            android:textSize="20sp" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnAddService_FTO"
+        android:layout_below="@id/flPhoto_FTO">
+
+        <LinearLayout
+            android:id="@+id/llData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="16dp"
+                android:paddingLeft="29dp"
+                android:paddingTop="26dp"
+                android:text="@string/tailor.order.text.type_of_garment"
+                android:textColor="#83848b"
+                android:textSize="14sp" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rvGarment_FTO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:alpha="0.3"
+                android:background="#191823"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/appCompatTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="16dp"
+                android:paddingLeft="29dp"
+                android:paddingTop="26dp"
+                android:text="@string/tailor.order.text.many_of_garments"
+                android:textColor="#83848b"
+                android:textSize="14sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:alpha="0.3"
+                android:background="#191823"
+                android:paddingBottom="16dp"
+                android:paddingTop="26dp">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="29dp"
+                    android:text="@string/tailor.order.text.items"
+                    android:textColor="#ccffffff"
+                    android:textSize="14sp" />
+
+                <android.support.v7.widget.AppCompatImageButton
+                    android:id="@+id/iBtnGarmentIncrement_FTO"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="29dp"
+                    android:background="@drawable/circle_button"
+                    android:src="@drawable/ic_plus" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/tvGarmentCount_FTO"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_toLeftOf="@id/iBtnGarmentIncrement_FTO"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="#ccffffff"
+                    android:textSize="14sp" />
+
+                <android.support.v7.widget.AppCompatImageButton
+                    android:id="@+id/iBtnGarmentDecrement_FTO"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toStartOf="@+id/tvGarmentCount_FTO"
+                    android:background="@drawable/circle_button"
+                    android:src="@drawable/ic_min" />
+            </RelativeLayout>
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/appCompatTextView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="16dp"
+                android:paddingLeft="29dp"
+                android:paddingTop="26dp"
+                android:text="@string/tailor.order.text.type_of_service"
+                android:textColor="#83848b"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#191823">
+
+            <RelativeLayout
+                android:id="@+id/button"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:clickable="true"
+                android:gravity="center">
+
+                <View
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:background="@drawable/triangle" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@id/button"
+                android:gravity="center|start"
+                android:paddingLeft="29dp"
+                android:text="@string/tailor.order.text.what_type_need"
+                android:textColor="@color/color_white"
+                android:textSize="14sp" />
+
+            <com.github.aakira.expandablelayout.ExpandableLinearLayout
+                android:id="@+id/expandableLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView"
+                android:orientation="vertical"
+                app:ael_duration="400"
+                app:ael_expanded="false">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"
+                        android:text="sample.sample.sample.sample.sle.sample.sample.sample.sample.sample.sample.sample.sample.sample.sample.sample.sample.sample.sample.sample.sample.\nample.sample.sample.sample.sample.sample.sample.sample.sample.sample.sample.sample.sample.sample.sample.sample.\n"
+                        android:textColor="@color/color_white"
+                        android:textSize="35sp" />
+                </ScrollView>
+
+            </com.github.aakira.expandablelayout.ExpandableLinearLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btnAddService_FTO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="ADD SERVICE" />
+
+</RelativeLayout>

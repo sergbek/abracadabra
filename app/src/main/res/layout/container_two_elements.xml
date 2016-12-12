@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:app="http://schemas.android.com/apk/res-auto"
+       xmlns:tools="http://schemas.android.com/tools"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       tools:background="@drawable/img_home_bg"
+       tools:parentTag="LinearLayout">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <com.myboxandroid.ui.custom.HoneyCombView
+        android:id="@+id/first"
+        style="@style/HoneyCombStyle"
+        android:layout_width="@dimen/withHoneyComb"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="@dimen/marginRight"
+        app:percentPhoto="20"
+        app:textSize="20sp"/>
+
+    <com.myboxandroid.ui.custom.HoneyCombView
+        android:id="@+id/second"
+        style="@style/HoneyCombStyle"
+        android:layout_width="@dimen/withHoneyComb"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/marginLeft"
+        android:layout_marginTop="@dimen/marginTop"
+        app:percentPhoto="20"
+        app:textSize="20sp"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+</merge>

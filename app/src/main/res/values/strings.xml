@@ -1,3 +1,147 @@
 <resources>
-    <string name="app_name">MyBox</string>
+
+    <string name="google_maps_key">AIzaSyCbjA7NTaHXGFJLp4m70KcvNvNCofhcdSI</string>
+
+    <string name="error_bad_network_connection">Bad network connection</string>
+    <string name="error_wrong_user">Such user is not registered.</string>
+    <string name="error_server_not_responding">The server is not responding.</string>
+    <string name="error_network">Network Error</string>
+    <string name="error_session_expired">Current session has expired. Please Re-log in.</string>
+    <string name="auth_error">Auth error. Can\t create the token</string>
+    <string name="user_already_exists">User already exists</string>
+    <string name="error">Error</string>
+    <string name="warning">Warning</string>
+    <string name="select_city">Select City</string>
+    <string name="select_mode">Select Mode</string>
+    <string name="next">Next</string>
+
+    <string name="error_view_oops">Oops</string>
+    <string name="something_went_wrong">Something went wrong =(</string>
+    <string name="error_view_retry">RETRY</string>
+
+    <string name="tour.button.text">Get Started</string>
+
+    <string name="base.login.button.register">Register</string>
+    <string name="base.login.button.login">Login</string>
+
+    <string name="login.hint.username">Username</string>
+    <string name="login.hint.password">Password</string>
+    <string name="login.text.forgot_password">I forgot my password</string>
+    <string name="login.text.new_user">I\'m new user</string>
+    <string name="login.button.text.login">LOGIN</string>
+
+    <string name="forgot.password.text">Enter your email address and we will send you a link to reset your password.</string>
+    <string name="forgot.password.hint.email">Email Address</string>
+    <string name="forgot.password.button.text">SUBMIT</string>
+
+    <string name="register.text.personal_info">Personal information</string>
+    <string name="register.hint.name">Full name</string>
+    <string name="register.hint.phone">Phone number</string>
+    <string name="register.hint.email">Email</string>
+    <string name="register.text.account_credentials">Account credentials</string>
+    <string name="register.text.select_username">Select a Username</string>
+    <string name="register.button.text.email_address">My Email Address</string>
+    <string name="register.button.text.phone_number">My Mobile Number</string>
+    <string name="register.button.text.custom">Custom</string>
+    <string name="register.hint.username">Username</string>
+    <string name="register.hint.password">Password</string>
+    <string name="register.text.term_and_conditions">I agree to terms and conditions</string>
+    <string name="register.text.already_have_account">I already have an account</string>
+    <string name="register.button.text.register">REGISTER</string>
+
+    <string-array name="register_sex_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string name="terms.text.terms_and_conditions">All terms and conditions</string>
+    <string name="terms.title.terms_and_conditions">Terms &amp; Conditions</string>
+
+    <string name="verify.code.text.info">We have sent you an activation code by SMS to your registered mobile number. Enter it below to activate your account.</string>
+    <string name="verify.code.hint.SMS">SMS Code</string>
+    <string name="verify.code.text.resend">Resend the Activation Code</string>
+    <string name="verify.code.button.next">NEXT</string>
+
+    <string name="my.account.title">My Account</string>
+    <string name="my.account.text.edit_account">Edit Account</string>
+    <string name="my.account.text.payment_details">PAYMENT DETAILS</string>
+    <string name="my.account.text.payment.reward_points">MY REWARD POINTS</string>
+    <string name="my.account.text.laundry_preference">LAUNDRY PREFERENCE</string>
+    <string name="my.account.text.change_city">CHANGE CITY</string>
+    <string name="my.account.text.switch_mode">SWITCH MODE</string>
+    <string name="my.account.text.orders_history">ORDERS HISTORY</string>
+    <string name="my.account.text.logout">Log out</string>
+
+    <string name="edit.account.title">My Details</string>
+    <string name="edit.account.text.personal_information">Personal Information</string>
+    <string name="edit.account.text.full_name">First &amp; Last Name</string>
+    <string name="edit.account.text.gender">Gender</string>
+    <string name="edit.account.text.date_of_birth">Date of Birth</string>
+    <string name="edit.account.text.address">Address</string>
+    <string name="edit.account.text.mobile_number">Mobile Number</string>
+    <string name="edit.account.text.email_address">Email Address</string>
+    <string name="edit.account.text.account_credentials">Account Credentials</string>
+    <string name="edit.account.text.username">Username</string>
+    <string name="edit.account.text.password">Password</string>
+    <string name="edit.account.button.text.save">SAVE</string>
+    <string name="edit.account.text.select_date">Select Date</string>
+    <string name="edit.account.text.select_address">Select Address</string>
+    <string name="edit.account.text.change_my_password">Change my Password</string>
+
+    <string-array name="edit_account_sex_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string name="change.city.text.current">Current City</string>
+    <string name="change.city.button.text">CHANGE CITY</string>
+    <string name="change.city.title">Change city</string>
+
+    <string name="services.button.text.order">PLACE ORDER NOW</string>
+
+    <string name="tailor.order.text.title">TAILORING</string>
+    <string name="tailor.order.text.type_of_garment">What type of garment do you need?</string>
+    <string name="tailor.order.text.many_of_garments">How many garments?</string>
+    <string name="tailor.order.text.items">ITEMS</string>
+    <string name="tailor.order.text.type_of_service">Type of service</string>
+    <string name="tailor.order.text.what_type_need">What type of service do you need?</string>
+
+    <string name="list_areas">List of Covered Areas</string>
+    <string name="list_lockers">List of Smart Lockers</string>
+    <string name="testString">With many terrific exclusive stories from our correspondents to give you plenty to read this weekend.Manila, Lindsay Murdoch and Kate Geraghty report on a man who rose from the dead to tell the story of</string>
+    <string name="search_for_different_building"><u>Search for Different Building</u></string>
+    <string name="search_for_different_areas"><u>Search for Different Areas</u></string>
+    <string name="confirm">Confirm</string>
+    <string name="warning_location">This app uses location . Without it, some functionality may be limited</string>
+    <string name="search_for_building">Search for a Building</string>
+    <string name="search_for_areas">Search for an Areas</string>
+    <string name="no_items_on_your_request">No items on your request</string>
+
+    <string name="validation_email">Please provide a valid email</string>
+    <string name="validation_phone">Please provide a valid phone number</string>
+    <string name="validation_pass">Incorrect password (min 4 symbols)</string>
+    <string name="validation_name">Please provide a valid name</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="login">Login</string>
+
+
+    <string-array name="service_description">
+        <item>Dress to impress using our premium laundry &amp; dry cleaning service. Let Laundrybox professionally care for your clothes.</item>
+        <item>When things go wrong with your devices, stay connected to the digital world with a quick and easy fix using the tech gurus at Geeks, a leading tech repair company in Dubai.</item>
+        <item>Tired of missing out on receiving all your stuff from shopping online ? From now on you can securely collect your packages without any hassle at anytime 24/7</item>
+        <item>Need to bring your favorite shoes back to life ? Drop them off at the locker and they will come back looking brand new after Ndust does their magic, a leading cobbler in Dubai.</item>
+        <item>Got more clothes than you have closet space ? Drop off all your seasonal clothes for specialized garment storage and get them returned when you need them.</item>
+        <item>Stay in style and drop off your garments in the locker and they will come back to you with the perfect fit in partnership with Tailor &amp; co, a leading tailor in Dubai.</item>
+    </string-array>
+
+    <string-array name="service_title">
+        <item>Laundry &amp; Drycleaning</item>
+        <item>Device Repair</item>
+        <item>Package Delivery</item>
+        <item>Shoe Repair</item>
+        <item>Micro Storage</item>
+        <item>Tailoring and Alteration</item>
+    </string-array>
+
 </resources>
